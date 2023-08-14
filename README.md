@@ -20,7 +20,7 @@ By using the capabilities of Gradio, OpenVINO, and OpenCV, made an intuitive web
 
 Check out the demo video to see the Image Upscaling with OpenVINO in action!
 
-![EDSR Demo](EDSR-Demo.mp4)
+![EDSR Demo](https://github.com/AghoraGuru/1API/blob/main/EDSR-Demo.mp4)
 
 ##Try it out:
 
