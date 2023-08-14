@@ -1,33 +1,44 @@
 # Image Upscaling with OpenVINO
 
+## Overview / Usage
 
-### Overview / Usage
-The project addresses the challenge of enhancing image quality through an interactive web application. Often, images captured or available online might be of low resolution. This impacts the visual experience and usability, especially in scenarios like image analysis, printing, and presentations. The project aims to solve this problem by providing a user-friendly interface that takes input images and uses a pre-trained OpenVINO model to upscale them, generating high-resolution versions.
+Enhancing image quality has never been easier with the interactive web application. Low-resolution images, whether captured or found online, often lack the visual impact required for image analysis, printing, and presentations. The project aims to address this challenge by offering a user-friendly interface that takes input images and utilizes a pre-trained OpenVINO model to upscale them, resulting in stunning high-resolution versions.
 
-The project merges the capabilities of Gradio, OpenVINO, and OpenCV to create an interactive web application. Users can upload images to the web interface, and the application leverages the power of OpenVINO for image upscaling. The uploaded images are processed using an EDSR (Enhanced Deep Super-Resolution) model, which is designed specifically for enhancing image quality through super-resolution techniques. The user can see the upscaled results on the interface (~within 15 seconds), providing a visual transformation of their images.
+By using the capabilities of Gradio, OpenVINO, and OpenCV, made an intuitive web application. Users can effortlessly upload their images to the web interface, where the application uses model to perform image upscaling. The uploaded images undergo processing using the Enhanced Deep Super-Resolution (EDSR) model, a cutting-edge approach specifically designed to enhance image quality .(takes ~ 15 seconds).
 
-### Methodology / Approach
-Methodology: The project involves developing an interactive web application aimed at elevating image quality. This is accomplished by employing the EDSR (Enhanced Deep Super-Resolution) model, which specializes in image super-resolution. The process unfolds as follows:
+## Methodology / Approach
 
-### User Interaction: Users interact with the web application's interface, uploading images for enhancement.
-### Preprocessing: Uploaded images undergo preparatory steps, encompassing resizing and normalization, to ensure optimal compatibility with the subsequent model inference.
-### Model Inference: The pre-trained EDSR model, optimized via the OpenVINO toolkit, undertakes inference on the preprocessed images. By leveraging deep learning, the model generates high-resolution predictions.
-### Post-processing: Model outputs undergo final adjustments, including color correction, pixel value normalization, and other refinements, ensuring optimal visual coherence.
-### Output Display: The enhanced high-resolution images are rendered in real-time on the web interface, allowing users to promptly observe the impact of the image enhancement.
+**Methodology:** The project revolves around the development of an interactive web application focused on improving image quality. This is achieved through the application of the Enhanced Deep Super-Resolution (EDSR) model, a specialist in image super-resolution. The step-by-step process is as follows:
 
-##Technological Solution:
+1. **User Interaction:** Users can engage with the web application's interface,uploads image for enhancement.
+2. **Preprocessing:** Uploaded images undergo preprocessing, involving resizing and normalization, ensuring compatibility with the model.
+3. **Model Inference:** The pre-trained EDSR model, fine-tuned with the OpenVINO toolkit, performs inference on the preprocessed images. Harnessing the power of deep learning, the model generates high-resolution predictions.
+4. **Post-processing:** Model outputs undergo final adjustments, encompassing color correction, pixel value normalization, and other refinements, culminating in visually coherent and compelling results.
+5. **Output Display:** The enhanced high-resolution images are showcased in real-time on the web interface, enabling users to promptly witness the transformative impact of image enhancement.
 
-### Gradio: 
-A user-friendly Gradio interface is instrumental in enabling effortless user interaction, streamlining the process of uploading images and receiving immediate feedback.
-### OpenVINO: 
-The OpenVINO toolkit serves as a pivotal optimization layer, enhancing the speed and efficiency of deep learning inference, thus facilitating real-time execution of the EDSR model.
-### EDSR Model: 
-The crux of the project resides in the EDSR model, which is trained on high-resolution and low-resolution image pairs. This model proficiency allows it to predict high-quality versions of     input images.
-###  Image Processing Libraries: 
-OpenCV and PIL come into play for image manipulation tasks. OpenCV facilitates preprocessing and post-processing operations, while PIL assists in image format adjustments.
+## Demo
 
-### Technologies Used
-Gradio
-OpenVino
-OpenCV
-EDSR Model
+Check out the demo video to see the Image Upscaling with OpenVINO in action!
+
+[![EDSR Demo](EDSR-Demo.mp4)
+
+##Try it out:
+
+Check out the HuggingFace Space to try it ! 
+
+## Technological Solution
+
+**Gradio:** The user-friendly interface, powered by Gradio, ensures a seamless user experience. Uploading images and receiving instant feedback has never been easier.
+
+**OpenVINO:** The OpenVINO toolkit serves as a critical optimization layer, significantly boosting the speed and efficiency of deep learning inference. This enables real-time execution of the EDSR model and delivers results promptly.
+
+**EDSR Model:** At the heart of the project lies the EDSR model. Trained on high-resolution and low-resolution image pairs, this model's proficiency enables it to predict remarkable high-quality versions of input images.
+
+**Image Processing Libraries:** OpenCV and PIL play crucial roles in image manipulation. OpenCV handles preprocessing and post-processing tasks, while PIL assists in fine-tuning image formats.
+
+## Technologies Used
+
+- Gradio
+- OpenVino
+- OpenCV
+- EDSR Model
