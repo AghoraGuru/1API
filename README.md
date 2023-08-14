@@ -16,17 +16,6 @@ By using the capabilities of Gradio, OpenVINO, and OpenCV, made an intuitive web
 4. **Post-processing:** Model outputs undergo final adjustments, encompassing color correction, pixel value normalization, and other refinements, culminating in visually coherent and compelling results.
 5. **Output Display:** The enhanced high-resolution images are showcased in real-time on the web interface, enabling users to promptly witness the transformative impact of image enhancement.
 
-## Demo
-
-Check out the demo video to see the Image Upscaling with OpenVINO in action!
-
-https://github.com/AghoraGuru/1API/assets/88477799/4d29aaca-ba3a-4dfc-8131-a12249fb2267
-
-
-## Try it out:
-
-Check out the HuggingFace Space to try it ! 
-
 ## Technological Solution
 
 **Gradio:** The user-friendly interface, powered by Gradio, ensures a seamless user experience. Uploading images and receiving instant feedback has never been easier.
@@ -43,3 +32,14 @@ Check out the HuggingFace Space to try it !
 - OpenVino
 - OpenCV
 - EDSR Model
+## Demo
+
+Check out the demo video to see the Image Upscaling with OpenVINO in action!
+
+https://github.com/AghoraGuru/1API/assets/88477799/4d29aaca-ba3a-4dfc-8131-a12249fb2267
+
+
+## Try it out:
+
+Check out the HuggingFace [Space](https://huggingface.co/spaces/aghoraguru/EDSR-OpenVINO) to try it ! 
+
