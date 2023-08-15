@@ -43,3 +43,6 @@ https://github.com/AghoraGuru/1API/assets/88477799/4d29aaca-ba3a-4dfc-8131-a1224
 
 Check out the HuggingFace [Space](https://huggingface.co/spaces/aghoraguru/EDSR-OpenVINO) to try it ! 
 
+## ScreenShots:
+![Gradio](https://github.com/AghoraGuru/1API/assets/88477799/45eed204-a1e4-41bf-ad9f-35d200b922a8)
+![scaled_robo](https://github.com/AghoraGuru/1API/assets/88477799/6ceccba3-be2b-4a66-8969-b1e79ca94e73)
