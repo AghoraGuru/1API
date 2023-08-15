@@ -4,7 +4,7 @@
 
 Enhancing image quality has never been easier with the interactive web application. Low-resolution images, whether captured or found online, often lack the visual impact required for image analysis, printing, and presentations. The project aims to address this challenge by offering a user-friendly interface that takes input images and utilizes a pre-trained OpenVINO model to upscale them, resulting in stunning high-resolution versions.
 
-By using the capabilities of Gradio, OpenVINO, and OpenCV, made an intuitive web application. Users can effortlessly upload their images to the web interface, where the application uses model to perform image upscaling. The uploaded images undergo processing using the Enhanced Deep Super-Resolution (EDSR) model, a cutting-edge approach specifically designed to enhance image quality .(takes ~ 15 seconds).
+By using the capabilities of Gradio, OpenVINO, and OpenCV, made an intuitive web application. Users can effortlessly upload their images to the web interface, where the application uses model to perform image upscaling. The uploaded images undergo processing using the Enhanced Deep Super-Resolution (EDSR) model, a cutting-edge approach specifically designed to enhance image quality .
 
 ## Methodology / Approach
 
